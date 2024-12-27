@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vi  ewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h1>House Price Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="feature1">Feature 1 (Longitude): </label>
+        <input type="text" name="feature1" placeholder="e.g., -122.23" required><br>
+
+        <!— Repeat the above two lines for the other features (feature2 to feature16) —>
+
+        <label for="feature2">Feature 2 (Latitude): </label>
+        <input type="text" name="feature2" placeholder="e.g., 37.88" required><br>
+
+        <!— Repeat the above two lines for the other features (feature3 to feature16) —>
+        <label for="feature3">Feature 3 (housing_median_age: 41.0): </label>
+        <input type="text" name="feature3" placeholder="e.g., 41.0" required><br>
+
+        <label for="feature4">Feature 4 (total_rooms: 880.0): </label>
+        <input type="text" name="feature4" placeholder="e.g., 880.0" required><br>
+
+        <label for="feature5">Feature 5 (total_bedrooms: 129.0): </label>
+        <input type="text" name="feature5" placeholder="e.g., 129.0" required><br>
+
+        <label for="feature6">Feature 6 (population: 322.0): </label>
+        <input type="text" name="feature6" placeholder="e.g., 322.0" required><br>
+
+        <label for="feature7">Feature 7 (households: 126.0): </label>
+        <input type="text" name="feature7" placeholder="e.g., 126.0" required><br>
+
+        <label for="feature8">Feature 8 (median_income: 8.3252): </label>
+        <input type="text" name="feature8" placeholder="e.g., 8.3252" required><br>
+
+        <label for="feature9">Feature 9 (rooms_per_household: 6.984127): </label>
+        <input type="text" name="feature9" placeholder="e.g., 6.984127" required><br>
+
+        <label for="feature10">Feature 10 (bedrooms_per_room: 0.146591): </label>
+        <input type="text" name="feature10" placeholder="e.g., 0.146591" required><br>
+
+        <label for="feature11">Feature 11 (population_per_household: 2.555556): </label>
+        <input type="text" name="feature11" placeholder="e.g., 2.555556" required><br>
+
+        <label for="feature12">Feature 12 (ocean_proximity_<1H OCEAN: 0.0): </label>
+        <input type="text" name="feature12" placeholder="e.g., 0.0" required><br>
+
+        <label for="feature13">Feature 13 (ocean_proximity_INLAND: 1.0): </label>
+        <input type="text" name="feature13" placeholder="e.g., 1.0" required><br>
+
+        <label for="feature14">Feature 14 (ocean_proximity_ISLAND: 0.0): </label>
+        <input type="text" name="feature14" placeholder="e.g., 0.0" required><br>
+
+        <label for="feature15">Feature 15 (ocean_proximity_NEAR BAY: 0.0): </label>
+        <input type="text" name="feature15" placeholder="e.g., 0.0" required><br>
+
+        <label for="feature16">Feature 16 (ocean_proximity_NEAR OCEAN: 0.0): </label>
+        <input type="text" name="feature16" placeholder="e.g., 0.0" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
